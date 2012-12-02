@@ -13,9 +13,7 @@
       }
   ],
   "require": {
-      "php": ">=5.3.3",
-      "phpugl/dime-timetracker-bundle": "master-dev",
-      "ruian/twitter-bootstrap-bundle": "*"
+      "php": ">=5.3.3"
   },
   "suggest": {
       "phpugl/dime-timetracker-frontend-bundle": "master-dev"
