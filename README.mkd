@@ -11,6 +11,11 @@ Checkout the invoice-new branch
 
 Follow the README of Dime
 
+Import some bundle specific SQL (Soon this will be replaced with a fixture of
+course)
+
+     mysql -u YOUR_USER -pYOUR_PASSWORD YOUR_DATABASE < invoice_customer.sql
+
 Install the assets of the bundle
 
     app/console dime:publish-assets --env=prod
