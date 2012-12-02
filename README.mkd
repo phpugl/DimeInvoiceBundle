@@ -5,8 +5,17 @@ An invoice plugin for Dime
 ##Installation
 
 
- *  get Dime
- *  checkout the invoice branch
- *  follow the README of Dime
- *  go to http://localhost/Dime/web/app_dev.php/invoice in your browser
+Get Dime
+
+Checkout the invoice-new branch
+
+Follow the README of Dime
+
+Install the assets of the bundle
+
+    app/console dime:publish-assets --env=prod
+
+In your browser go to 
+
+    http://localhost/Dime/web/app_dev.php/invoice
 
