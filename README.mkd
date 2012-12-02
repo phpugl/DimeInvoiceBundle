@@ -18,7 +18,7 @@ course)
 
 Install the assets of the bundle
 
-    app/console dime:publish-assets --env=prod
+    app/console assets:install web
 
 In your browser go to 
 
