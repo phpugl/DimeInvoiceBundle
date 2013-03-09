@@ -1,0 +1,10 @@
+assetic:
+    assets:
+        js_vendors:
+            inputs: ~
+        js_plugins:
+            inputs: ~
+        js_app:
+            inputs:
+                - '@DimeInvoiceBundle/Resources/public/js/*'
+
